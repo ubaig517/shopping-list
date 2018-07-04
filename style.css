@@ -1,0 +1,26 @@
+ul {
+  width: 250px;
+}
+
+li {
+  cursor: pointer;
+  line-height: 2;
+  font-size: 1.2rem;
+}
+
+li:hover {
+  font-weight: bold;
+}
+
+.done {
+  text-decoration: line-through;
+}
+
+li > button {
+  float: right;
+  margin-top: 7px;
+  cursor: pointer;
+  background-color: #EF9A9A;
+  padding: 5px;
+  border-radius: 10px;
+}
